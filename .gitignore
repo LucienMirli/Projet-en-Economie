@@ -1,20 +1,15 @@
-
 # Python
+.venv/
 __pycache__/
 *.pyc
-.venv/
-venv/
 
-# Jupyter
-.ipynb_checkpoints/
+# VS Code
+.vscode/
 
-# Données (à conserver localement)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Données
+data/raw/
+data/processed/
 
 # Fichiers temporaires
-.DS_Store
-Thumbs.db
+.ipynb_checkpoints/
 .env
